@@ -114,7 +114,7 @@ import type   { CountryResolvers } from './types.generated';
 ```
 
 `id` and `name` are part of the `drizzle/schema#Country` type, which is exported in schema.mappers.ts as `CountryMapper`,
-yet the generated `CountryResolvers` is not regnosing them, and generated a unwanted resolver for them.
+yet the generated `CountryResolvers` is not regnosing them, and generated a unwanted resolvers for them.
 
 Note that in types.generated.ts the `CountryMapper` is imported, so at least it seems to have picked up that mapper:
 
