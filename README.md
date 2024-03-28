@@ -1,3 +1,5 @@
+Repo for issue https://github.com/eddeee888/graphql-code-generator-plugins/issues/245
+
 Uses [@eddeee888/gcg-typescript-resolver-files](https://github.com/eddeee888/graphql-code-generator-plugins)
 
 **Config:**
