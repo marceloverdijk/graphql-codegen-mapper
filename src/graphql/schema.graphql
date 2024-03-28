@@ -1,0 +1,21 @@
+scalar CountryCode
+
+type Query {
+    continents(first: Int = 10, offset: Int = 0): [Continent!]
+    continent(id: ID!): Continent
+    countries(first: Int = 10, offset: Int = 0): [Country!]
+    country(id: ID!): Country
+}
+
+type Continent {
+    id: ID!
+    code: String!
+    name: String!
+}
+
+type Country {
+    id: ID!
+    code: CountryCode!
+    name: String!
+    continent: Continent!
+}
